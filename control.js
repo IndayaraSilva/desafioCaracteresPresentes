@@ -14,7 +14,6 @@ while (frases.length < qtdFrases) {
 var frasesComCaracter = [];
 var quaisCaracteres = prompt("Quais caracteres você quer identificar nas frases?");
 
-// FUNCIONOU Basicamente, to comparando uma frase/palavra inteira com um caracter. Não tem como isso dar certo.
 for (var indice = 0; indice < frases.length; indice ++) {
     if (frases[indice].toLowerCase().includes(quaisCaracteres.toLowerCase())) { 
         frasesComCaracter.push(frases[indice])
